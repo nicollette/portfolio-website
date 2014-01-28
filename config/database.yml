@@ -17,9 +17,3 @@ test:
   encoding: unicode
   database: portfolio_test
   localhost: Nicollette
-  
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: portfolio_production
-  localhost: Nicollette
