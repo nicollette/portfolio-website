@@ -37,3 +37,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'newrelic_rpm'
+gem 'bootstrap-sass-rails'
