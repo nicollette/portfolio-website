@@ -13,4 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require js/smoothscroll
+//= require js/Chart
 //= require_tree .
