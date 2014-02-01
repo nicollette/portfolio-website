@@ -9,8 +9,7 @@
     var view = this;
 		view.$el.html("");
     
-    var $score = $("<div class='score'>");
-    $score.text("Score: " + this.board.score);
+    $("#score").text("Score: " + this.board.score);
     view.$el.append($score);
     
 		var board_array = this.board.render();
@@ -92,6 +91,6 @@
 })(this);
 
 $(document).ready(function() {
-	var new_view = new SnakeGame.View($("body"));
+	var new_view = new SnakeGame.View($("#board"));
 	new_view.start();
 });
