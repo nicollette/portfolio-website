@@ -284,3 +284,7 @@ a:after {
 sm {
 	font-size: 12px;
 }
+
+.skill-container {
+  height:280px;
+}
