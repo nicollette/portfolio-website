@@ -1,14 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="../assets/css/snake.css">
-  <script src="../assets/js/jquery.min.js"></script>
-	<!-- // <script src="keymaster.js"></script> -->
-  <script src="../assets/javascripts/snake/snake.js"></script>
-  <script src="../assets/javascripts/snake/snake_ui.js"></script>
+  <% content_for :head do %>
+    <link rel="stylesheet" type="text/css" href="/assets/snake.css">
+    <!-- // <script src="../assets/snake/jquery.min.js"></script>
+    // <script src="../assets/snake/snake.js"></script>
+    // <script src="../assets/snake/snake_ui.js"></script> -->
+    
+    <%= javascript_include_tag "/assets/jquery.min.js" %>
+    <%= javascript_include_tag "/assets/snake.js" %>
+    <%= javascript_include_tag "/assets/snake_ui.js" %>
+
+  <% end %>
 </head>
-
-<body>
-
+<body> 
   <div id="score">
   </div>
   

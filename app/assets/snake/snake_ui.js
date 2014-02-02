@@ -7,10 +7,10 @@
 
 	View.prototype.htmlRender = function() {
     var view = this;
-		view.$el.html("");
+		this.$el.html("");
     
-    $("#score").text("Score: " + this.board.score);
-    view.$el.append($score);
+    var $score = $("#score");
+    $score.text("Score: " + this.board.score);
     
 		var board_array = this.board.render();
     

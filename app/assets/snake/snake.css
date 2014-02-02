@@ -47,8 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-.score {
-  
+#score {
+  color: white;
 }
 .row {
   width: 520px;

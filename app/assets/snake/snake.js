@@ -81,9 +81,8 @@
   Board.prototype.checkEatsApple = function() {
     var board = this;
     var eatenAppleIdx = null;
-    // need to check if apple is the next grid spot
-    // var snakeHeadPos = this.snake.segments[0];
     var snakeHeadPos = this.snake.nextGridSpot();    
+
     this.applePositions.forEach(function(applePos, index) {
       if(board.compareCellsEq(snakeHeadPos, applePos)) {
         eatenAppleIdx = index;
