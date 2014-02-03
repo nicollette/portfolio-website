@@ -10,7 +10,7 @@
 		this.$el.html("");
     
     var $score = $("#score");
-    $score.text("Score: " + this.board.score);
+    $score.text("SCORE: " + this.board.score);
     
 		var board_array = this.board.render();
     

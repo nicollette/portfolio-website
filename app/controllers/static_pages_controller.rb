@@ -6,4 +6,8 @@ class StaticPagesController < ApplicationController
   def snake
     render :snake
   end
+  
+  def ttt
+    render :ttt
+  end
 end
