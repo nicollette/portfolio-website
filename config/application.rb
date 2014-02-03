@@ -60,7 +60,7 @@ module PortfolioWebsite
     config.assets.version = '1.0'
     config.assets.initialize_on_precompile = false
     
-    config.assets.precompile += %w(*-bundle.css.scss)
+    config.assets.precompile += %w(*-bundle.css)
     config.assets.precompile += %w(*-bundle.js)
   end
 end
