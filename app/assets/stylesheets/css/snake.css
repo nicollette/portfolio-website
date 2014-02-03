@@ -28,7 +28,7 @@ body {
   padding: 20px;
   position: absolute;
   left: 20%;
-  top: 5%;
+  top: 3%;
   background-color: gray;
 }
 ol, ul {
@@ -47,8 +47,16 @@ table {
 	border-spacing: 0;
 }
 
-#score {
+#score , #instructions {
   color: white;
+  font-family: Helvetica;
+}
+
+#score {
+  color:coral;
+}
+#instructions {
+ line-height:130%; 
 }
 .row {
   width: 520px;
