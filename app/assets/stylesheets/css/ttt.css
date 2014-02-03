@@ -21,12 +21,12 @@ float:left;
   border-color: #6699FF;
   border-style:solid;
   border-width:1px;
-  background-image:url('/assets/blue.jpg');
+  background-image:url('/assets/ttt_blue.jpg');
 }
 
 .otile
 {
-  background-image: url('/assets/orange.jpg');
+  background-image: url('/assets/ttt_orange.jpg');
   border-color: orange;
   border-style:solid;
   border-width:1px;
