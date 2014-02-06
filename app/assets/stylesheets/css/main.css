@@ -287,4 +287,5 @@ sm {
 
 .skill-container {
   height:280px;
+  display:inline-block;
 }
