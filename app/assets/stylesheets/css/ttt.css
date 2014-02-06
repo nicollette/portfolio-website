@@ -1,7 +1,6 @@
-
 .tile
 {
-border-color:gray;
+border-color:white;
 border-width:1px;
 border-style:dashed;
 width:150px;
@@ -34,4 +33,6 @@ float:left;
 
 body {
   font-family: Helvetica;
+  background-color:#00828b;
+  color:white;
 }
