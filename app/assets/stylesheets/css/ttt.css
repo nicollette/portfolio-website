@@ -35,6 +35,12 @@ body {
   font-family: Helvetica;
   background-color:#00828b;
   color:white;
+  position:absolute;
   left:20%;
   top:5%;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+#instructions {
+  color:orange;
 }
