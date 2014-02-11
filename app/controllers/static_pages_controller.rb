@@ -10,4 +10,8 @@ class StaticPagesController < ApplicationController
   def ttt
     render :ttt
   end
+  
+  def toh
+    render :toh
+  end
 end

@@ -1,8 +1,3 @@
-//UPDATE:
-//render head of snake differently
-// keep track of score
-//  add to board.score when apple is eaten, render in div score
-
 (function(root) {
 	var SnakeGame = root.SnakeGame = (root.SnakeGame || {});
 

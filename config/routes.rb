@@ -4,5 +4,6 @@ PortfolioWebsite::Application.routes.draw do
   resource :static_pages, :only => [:index] do
     get :snake, :on => :collection
     get :ttt, :on => :collection
+    get :toh, :on => :collection
   end
 end
