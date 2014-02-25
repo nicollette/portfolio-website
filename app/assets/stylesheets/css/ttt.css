@@ -17,23 +17,21 @@ float:left;
 
 .xtile
 {
-  border-color: #6699FF;
   border-style:solid;
   border-width:1px;
-  background-image:url('/assets/ttt_blue.jpg');
+  background-image:url('/assets/ttt_hal.jpg');
 }
 
 .otile
 {
-  background-image: url('/assets/ttt_orange.jpg');
-  border-color: orange;
+  background-image: url('/assets/ttt_cat.jpeg');
   border-style:solid;
   border-width:1px;
 }
 
 body {
   font-family: Helvetica;
-  background-color:#00828b;
+  background-color:black;
   color:white;
   position:absolute;
   left:20%;
@@ -41,6 +39,10 @@ body {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+.gameover {
+  background-color:#ca0000;
+}
+
 #instructions {
-  color:orange;
+  color:white;
 }
